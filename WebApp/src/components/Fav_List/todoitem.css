@@ -1,0 +1,10 @@
+
+
+.todostar{
+display: flex;
+align-items: center;
+}
+.favlist{
+    height: 100px;
+    overflow-y: auto;
+}

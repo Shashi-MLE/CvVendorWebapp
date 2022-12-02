@@ -1,0 +1,238 @@
+.Contactboard{
+   
+    background-color: #85a6b0;
+    /* height: 100vh; */
+}
+#Rec{
+    
+    width: 66%;
+    /* margin-left: 18rem;
+    /* top: 0 !important; */
+    /* margin-top: 3rem; */ 
+}
+#Company{
+    height: 116px;
+    width: 120px;
+    border-radius: 60%;
+    background-color: #f2f5f5;
+    position: absolute;
+    top: 13rem;
+    left: 24rem;
+    border:1px solid #4fc9eb;
+}
+.Photo11-mob{
+    height: 116px;
+    width: 120px;   
+    background-color: #f2f5f5;
+    display: none;
+    border-radius: 17px;
+    display: none;
+}
+.bn5-mob{
+    display: none;
+ 
+
+}
+/* .Contactboarder1 {
+    justify-content: center;
+    display: flex; }*/
+
+
+.Contactboarder{
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Paragraph{
+    margin-top: 4rem;
+    margin-left: -5rem;
+   
+
+}
+.c1{
+    font-size: 20px;
+    font-weight: 649;
+    color:#f2f5f5 ;
+    margin: 0 !important;
+    display: flex;
+    gap: 7rem;
+  
+
+
+}
+.c2{
+    font-size: 20px;
+    font-weight: 649;
+    color:#f2f5f5 ;
+    margin: 0 !important;
+    display: flex;
+    gap: 10em;
+    
+
+}
+.c3{
+    font-size: 20px;
+    font-weight: 649;
+    color:#f2f5f5 ;
+    display: flex;
+    gap: 12.3rem;
+}
+
+.c4{
+    font-size: 20px;
+    font-weight: 649;
+    color:#f2f5f5 ;
+    display: flex;
+    gap: 11.4rem;
+}
+.c5{
+    font-size: 20px;
+    font-weight: 649;
+    color:#f2f5f5 ;
+    display: flex;
+    gap: 5.4rem;
+}.c6{
+    font-size: 20px;
+    font-weight: 649;
+    color:#f2f5f5 ;
+    display: flex;
+    gap: 7.6rem;
+}.c7{
+    font-size: 20px;
+    font-weight: 649;
+    color:#f2f5f5 ;
+    display: flex;
+    gap: 12.8rem;
+}.c8{
+    font-size: 20px;
+    font-weight: 649;
+    color:#f2f5f5 ;
+    display: flex;
+    gap: 4.5rem;
+}.c9{
+    font-size: 20px;
+    font-weight: 649;
+    color:#f2f5f5 ;
+    display: flex;
+    gap: 10.8rem;
+}
+.But{
+    border: none !important;
+    pointer-events: none;
+}
+/* .Butt{
+    border: none !important;
+    pointer-events: none;
+
+} */
+.But{
+    padding: 1rem 5rem;
+}
+.But>button{
+    padding: 0.5rem 1.5rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    background-color: #85a6b0;
+    font-size: 20px;
+    font-weight: 400;
+    width: 7rem;
+}
+.But>button:hover{
+    border: 1px solid #85a6b0;
+    color: #85a6b0;
+    background-color: rgba(255, 255, 255, 0.918);
+}
+.bn4{
+    margin-top: 2rem;
+    border-radius: 13px;
+    background-color: #25d4c2;
+   
+    padding: 10px 38px 11px 2rem;
+    font-size: 16px;
+    color: white;
+}
+.bn5{
+    margin-top: 0rem;
+    border-radius: 13px;
+    background-color: #25d4c2;
+   
+    padding: 10px 38px 11px 2rem;
+    font-size: 16px;
+    color: white;
+    
+    margin-left: 42rem;
+}
+@media screen and (min-width: 320px) and (max-width: 786px) {
+    .Contactboarder{
+        
+    padding-left: 1rem !important;
+   
+    height: 102vh;
+    }
+	
+.Photo11-mob{
+    display: block !important;
+}
+.bn5-mob{
+    display: block !important;
+}
+.bn5{
+    margin-left: 0 !important;
+}
+.Paragraph{
+    margin-left: 0 !important;
+}
+.c4{
+    gap: 1rem !important;
+}
+.BOX{
+    display: flex;
+}
+.bn5-mob{
+    margin-top: 3.5rem !important;
+    margin-left: 1rem !important;
+}
+#Company{
+position:unset !important;
+}
+}
+
+#contactCard{
+    margin: 0 !important;
+    font-size: 20px;
+    font-weight: 400;
+    color: white; 
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.contactCardInput{
+    border-bottom: 1px solid white !important;
+}
+
+ #contactCard:focus-visible, #contactCard:active{
+
+    outline: none;
+}
+
+.Butt>button{
+    padding: 0.5rem 1.5rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    background-color: #85a6b0;
+    font-size: 20px;
+    font-weight: 400;
+    width: 7rem;
+}
+
+.Butt>button:hover{
+    border: 1px solid #85a6b0;
+    color: #85a6b0;
+    background-color: rgba(255, 255, 255, 0.918);
+}

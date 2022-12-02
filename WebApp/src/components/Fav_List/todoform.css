@@ -1,0 +1,14 @@
+.input-group-addon {
+    padding: 17px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 1; */
+    /* color: #555; */
+    text-align: center;
+    background: linear-gradient( 90deg, rgba(17, 122, 255, 1) 0%, rgba(20, 159, 255, 1) 100% );
+    border: 1px solid #ccc;
+    width: 1%;
+    /* white-space: nowrap;
+    vertical-align: middle; */
+    /* display: table-cell; */
+}

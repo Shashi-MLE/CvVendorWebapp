@@ -1,0 +1,166 @@
+
+@media screen and (min-width: 280px) and (max-width: 991px) {
+ 
+    .img-m-grid{
+           margin-top: 5rem;
+  
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3rem;
+ 
+    } 
+    
+    .loginbtn{
+        background-color: #09427d;
+        color: white;
+        width: 150px !important;
+        border-radius: 22px;
+        height: 50px;
+        font-weight:500 ;
+        margin-top: 0% !important;
+        
+    }
+    .forgot{
+        text-align: right;  
+margin: 12% 0 !important;
+        font-weight: 700;
+      
+        
+    
+    }
+    .response{
+        margin-top: 12% !important;
+    }
+
+    .Form-login{
+        margin:0 !important;
+        padding: 0 !important;
+        justify-content: center;
+        display: flex;
+    }
+    
+ }
+
+ .forgot>p{
+color:#09427D;
+font-size: larger;
+ }
+
+.login-grid{
+
+    height:100vh;
+    flex:1;
+}
+
+.img-grid{
+    height:100vh;
+    background-color:#336c7b;
+    flex: 1;
+}
+
+.Contain{
+    display: flex;
+    /* background-color:whitesmoke; */
+}
+.img-grid img{
+    margin: 250px 0 0 43px;
+    width: 72%;
+}
+
+form> h4{
+    color:#09427d;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: initial;
+    margin-bottom:4rem;
+}
+
+.Form-login{
+    margin: 121px 50px 0px 50px;
+    padding: 0 63px 0 35px;
+}
+
+.forgot{
+    text-align: right;  
+    margin: 7% 0 ;
+    font-weight: 700;
+   
+    
+
+}
+.forgot>a{
+    text-decoration: none;
+}
+.loginbtn{
+    background-color: #09427d;
+    color: white;
+    width: 250px;
+    border-radius: 22px;
+    height: 50px;
+    font-weight:500 ;
+    margin-top: 15%;
+    float: right;
+}
+/* .signupbtn{
+    transition: all .5s ease;
+    color: #fff;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 26px;
+    width: 250px;
+    height: 50px;
+    font-weight:500 ;
+}
+.signupbtn:hover {
+   
+    background-color: #fff;
+} */
+.response{
+  
+    font-weight: 700;
+    margin-top: 7% ;
+    float: left;
+    
+}
+.response>a{
+    text-decoration: none;
+}
+.inputb{
+
+    border: 2px solid #6beffa;
+    
+    line-height: 2.5rem;
+    border-left: none;
+    
+    box-shadow: none !important;
+    padding-right: 5.2rem !important;
+   
+}
+.passicon{
+    cursor: pointer;
+    position: absolute;
+    width: 40px;
+    right: 8px;
+    top: 10px;
+    border-left: none !important; 
+    /* background-position: right  !important;
+    background:  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'  width='25' height='21' class='bi bi-eye-fill'  viewBox='0 0 16 16'%3E%3Cpath  d='M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 15px 2px  ;  */
+    
+}
+
+#icon1{
+    border: 2px solid #6beffa !important;
+    border-radius: 0.6rem 0 0 0.6rem;
+    border-right: none !important;
+}
+
+
+.input-group input:focus{
+    border-color: #6beffa;
+}
+

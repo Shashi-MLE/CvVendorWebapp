@@ -1,0 +1,203 @@
+#img11{
+    width: 80%;
+    /* border-radius: 10px; */
+    border-top-left-radius: 59px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    /* margin-top: 10%; */
+    position:relative;
+    object-fit: none;
+    
+}
+.Design{
+    position: relative;
+}
+.Circle{
+    height: 77px;
+    width: 85px;
+    border-radius: 60%;
+    background-color: #f2f5f5;
+    position: absolute;
+    top: 5rem;
+    left: 4rem;
+    
+    border: 2px solid #24b0bd;
+}
+/* .Content{
+   float: right;
+   margin-right: 3px;
+} */
+.Pro, [class*="con"] #profileInput{
+    margin: 0 !important;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;    
+}
+
+[class*="con"] #profileInput{
+    background-color: transparent;
+    border: 1px solid transparent;
+
+}
+[class*="con"] #profileInput:focus-visible, [class*="con"] #profileInput:active{
+
+    outline: none;
+}
+.profileInput{
+    border-bottom: 1px solid white !important;
+}
+
+.Update{
+    font-size: 15px;
+    font-weight: 600;
+    color: #308083;
+}
+.U{
+    display: flex;
+}
+.U1{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;   
+
+}
+.User{
+    height: 42px;
+    width: 342px;
+    background-color: white;
+    border-radius: 13px;
+    border: 2px solid #24b0bd;
+}
+.Con1{
+    /* padding: 0 0 0 12rem; */
+    display: flex;
+    gap: 7rem;
+
+}
+.Con3{
+    display: flex;
+    gap: 6rem;
+}
+
+.Website{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;   
+
+    
+}
+.Shape2, .Shape1{
+    height: 42px;
+    width: 342px;
+    background-color: white;
+    border-radius: 13px;
+    border: 2px solid #24b0bd;
+
+}
+.Con2{
+   display: flex;
+   gap: 4rem;
+
+}
+.Conz{
+    margin-left:11rem;
+    display: flex;
+}
+.Conn{
+    display:flex;
+    gap: 6rem;
+}
+.editButton{
+    padding: 1rem 5rem;
+}
+.editButton>button{
+    padding: 0.5rem 1.5rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    background-color: #85a6b0;
+    font-size: 20px;
+    font-weight: 400;
+    width: 7rem;
+}
+.editButton>button:hover{
+    border: 1px solid #85a6b0;
+    color: #85a6b0;
+    background-color: rgba(255, 255, 255, 0.918);
+}
+
+.Shape3{
+    height: 77px;
+    width: 85px;
+    border-radius: 60%;
+    background-color: #f2f5f5;
+    
+    border: 2px solid #24b0bd;
+
+}
+.Photo1{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;   
+
+}
+.Shape4{
+    height: 100px;
+    width: 342px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #24b0bd;
+}
+.Shape5{
+    height: 42px;
+    width: 342px;
+    background-color: white;
+    border-radius: 13px;
+    border: 2px solid #24b0bd;
+
+}
+.saveBTN{
+    display: none;
+}
+.Con5{
+    display: flex;
+    gap: 8rem;
+}
+.Tab{
+    display: flex;
+    gap: 2rem;
+    margin-left: -1rem;
+    margin-top: 1rem;
+}
+.Short>p , .Job>p{
+    color: white;
+
+}
+
+.Tab>p:first-child {
+    color: #308083;
+
+}
+.Tab> p:nth-child(2){
+    color:white;
+}
+.bn1{
+    padding: 0.5rem 1.5rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    background-color: #85a6b0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bn1:hover{
+    border: 1px solid #85a6b0;
+    color: #85a6b0;
+    background-color: rgba(255, 255, 255, 0.918);
+}
+
+.design-mob{
+    display: none;
+}

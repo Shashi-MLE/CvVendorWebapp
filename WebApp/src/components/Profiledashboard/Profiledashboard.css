@@ -1,0 +1,164 @@
+.Prodash{
+    display: flex;
+    background-color: #85a6b0;
+    gap: 5rem
+}
+.Profile{
+    background-color: #85a6b0;
+    flex: 0.6;
+    height: 52rem;
+   
+   
+}
+
+.dashdata{
+    margin-top: 9rem;
+}
+.Main{
+    
+    background-color: #85a6b0;
+    margin: 56px 30px 10px 68px;
+   
+}
+.heading{
+    font-size: 55px;
+    font-weight: 370;
+    color:#f2f5f5
+    
+}
+
+.Settings{
+    background-color: #f2f5f5;
+    border-radius: 22px;
+    width: 13rem;
+    height: 18rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* margin-top: 4.5rem; */
+}
+.data{
+    flex: 2;
+    padding-right: 9rem;
+}
+
+.Data1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #4fc9eb ;
+}
+.Data2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #4fc9eb ;
+}
+.Data3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #4fc9eb ;
+}
+.heading{
+    padding-left: 4.5rem;
+    padding-top: 2rem;
+
+} 
+.ntitle>p{
+    color: white;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #83daf2;
+}
+
+.tabnav .userProfileTab.active, .tabnav .show>.userProfileTab {
+    background-color: #85a6b0;
+    color: white !important;
+    border-radius: 0px !important;
+}
+
+.userProfileTab {
+    color: #85a6b0 !important;
+    border-radius: 0px !important;
+}
+
+.userProfileTabUL{
+    width: 100%;
+    margin-right: 0px !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 786px) {
+.dashdata {
+    margin-top: 0 !important;
+}
+	.Prodash {
+        gap: 0 !important;
+        height: 100vh;
+
+        flex-wrap: wrap;
+    }
+    .data{
+        margin-top: 0 !important;
+        padding-right: 0 !important;
+      
+    }
+    .Profile, .Settings{
+        height:auto !important;
+    }
+    .Bio{
+        width: 21rem !important;
+    }
+    .Card2{
+        padding-left: 12px;
+    }
+    .Details1{
+        padding-left:8px !important ;
+    }
+    .Image1{
+        height: 8rem !important;
+        width: 8rem !important;
+    }
+    .Design{
+        display: none !important;
+    }
+    .design-mob{
+        display: block !important;
+    }
+    .Content2{
+        padding-left: 1rem !important
+    }
+    .Shape2, .Shape1 {
+        height: 3rem !important;
+        width: 193px !important;
+       
+    }
+    .Conn{
+        gap:3rem !important;
+    }
+    .Con1{
+        gap: 4rem !important;
+    }
+    .Con2{
+        gap: 1rem !important;
+    }
+    .Con3{
+        gap: 3rem !important;
+    }
+    .Con5{
+        gap: 5rem !important;
+    }
+    .Shape4{
+        height: 110px !important;
+    width: 193px !important;
+    }
+    .Shape5{
+        width: 193px !important;
+        
+    }
+    .Tab{
+        margin-left: 0 !important;
+        gap: 6px !important;
+    }
+
+
+        
+}
+
+

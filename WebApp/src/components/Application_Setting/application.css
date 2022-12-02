@@ -1,0 +1,91 @@
+
+.AppMainsett{
+    
+    margin: 56px 30px 10px 68px;
+}
+.Leadsett{
+    display: flex;
+    background-color: #85a6b0;
+    gap: 5rem;
+    height: 100vh;
+}
+.aside{
+    background-color: #85a6b0;
+    flex: 0.6;
+    /* height: 52rem; */
+   
+   
+}
+.appdatamain{
+    flex: 2;
+    margin-top: 9rem;
+}
+.settcont{
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    background-color: #85a6b0;
+    margin: 56px 10px 10px 50px;
+   
+}
+.tabSettings{
+    background-color: #f2f5f5;
+    border-radius: 22px;
+    width: 13rem;
+    height: 18rem;
+
+    padding-top: 1rem;
+}
+.nav-pills .userSettingTab.active, .nav-pills .show>.userSettingTab {
+
+    background-color: #85a6b0;
+
+    color: white !important;
+
+    border-radius: 0px !important;
+
+}
+
+
+
+.userSettingTab {
+
+    color: #85a6b0 !important;
+
+    border-radius: 0px !important;
+
+}
+
+
+
+.userSettingTabUL{
+
+    width: 100%;
+
+    margin-right: 0px !important;
+
+}
+@media screen and (min-width: 320px) and (max-width: 786px) {
+	.Leadsett {
+        gap: 0 !important;
+        
+        flex-wrap: wrap;
+    }
+    .appdatamain{
+        margin-top: 4rem !important;
+        text-align: center;
+      }
+    .aside{
+        background-color: #85a6b0;
+        flex: 0.6;
+
+       
+       
+    }
+    .tabSettings{
+        height:auto !important;
+        
+    }
+    
+   
+}

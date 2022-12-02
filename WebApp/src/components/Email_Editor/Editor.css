@@ -1,0 +1,127 @@
+.EmailEditor {
+    display: flex;
+    background-color: #85A6B0;
+    /* height: 100vh; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+
+}
+.form-group3>#exampleInputEmail3{
+    border: 1px solid #53c5d2;
+}
+
+#exampleInputEmail3::placeholder{
+    color:#53c5d2;
+}
+
+.content {
+    display: flex;
+    flex: 0.5 1;
+    background-color: #85A6B0;
+    width: 100%;
+    padding-left: 1.5rem;
+    flex-direction: column;
+  
+}
+
+.Templatemain{
+    border-radius: 20px;
+    padding: 3.3rem;
+    margin-top: 3rem;
+    width: 30rem;
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    border: 1px solid #53c5d2;
+}
+
+.editormail{
+    flex: 1;
+    padding-left: 1rem;
+    border-radius: 4%;
+    width: 95%;
+}
+
+.editor-class {
+    background-color: white;
+    padding-left: 1rem;
+    border-radius: 13px;
+    width: 100%;
+    height: 47vh!important;
+    /* padding-top: 2rem; */
+    margin-top: 1rem;
+    border: 2px solid #53c5d2;
+}
+.editor-class::-webkit-scrollbar {
+    display: none;
+}
+.toolbar-class {
+    border: 1px solid #ccc;
+}
+
+.DraftEditor-root{
+    height:auto !important;
+}
+
+.mailbtn{
+  
+    margin-top: 2rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mailbtn>button{
+    background: #53c5d2;
+    border: 1px solid #6beffa;
+    line-height: 24px;
+    /* padding: 7px; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.mailbtn>button:hover{
+    background-color: white;
+    color:#086e6e;
+    border:1px solid rgb(105, 224, 253)
+}
+
+.rdw-editor-toolbar{
+    border: 1px solid #53c5d2 !important;
+}
+.rdw-option-wrapper{
+    border:1px solid #53c5d2 !important;
+    height: 29px !important;;
+    padding: 8px !important;
+}
+
+.rdw-option-wrapper:hover {
+   
+    background-color: #5df3f3 !important;
+}
+.rdw-option-wrapper:hover .rdw-option-wrapper{
+    border:1px solid whitesmoke !important;
+}
+
+
+.rdw-dropdown-wrapper{
+    border:1px solid #53c5d2 !important; 
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 786px) {
+
+    .EmailEditor{
+        display: block;
+        height: auto;
+        /* padding-bottom: 3rem; */
+        padding:2rem !important
+    }
+
+    .Templatemain{
+        width: 100%;
+    }
+    
+
+}
